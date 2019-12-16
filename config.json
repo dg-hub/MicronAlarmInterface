@@ -1,0 +1,5 @@
+{
+    "http_username": "micron",
+    "http_password": "password",
+    "http_url": "http://192.168.1.5/cm00.xml"
+}
