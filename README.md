@@ -33,13 +33,13 @@ area_status = mci.get_area_status()
 print("Area Status {}".format(area_status))
 
 #Arm the Main Area
-print("Arm Default Area ({})".format(area_names[1])
-area_status = mci.set_area_name(area_names[1])
+print("Arm Default Area ({})".format(area_names[0])
+area_status = mci.set_area_name(area_names[0])
 print("Area Status {}".format(area_status))
 
 #Disarm the Main Area
-print("Disarm Default Area ({})".format(area_names[1])
-area_status = mci.set_area_name(area_names[1])
+print("Disarm Default Area ({})".format(area_names[0])
+area_status = mci.set_area_name(area_names[0])
 print("Area Status {}".format(area_status))
 ```
 
