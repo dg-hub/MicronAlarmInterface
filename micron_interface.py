@@ -1,3 +1,11 @@
+"""
+A Python interface for controlling Mircon Meridian Alarm Systems over HTTP
+"""
+
+__author__ = "Daniel G"
+__version__ = "0.1.3"
+__license__ = "MIT"
+
 import enum
 import requests
 from requests.auth import HTTPBasicAuth
