@@ -22,7 +22,7 @@ Version 0.1.3 (December 16, 2019) Add initial code to control areas, get zone/ar
 
 After importing the module create a `MicronAlarmInterface` class:
 
-```
+```python
 import micron_interface
 
 mci = micron_interface.MicronAlarmInterface("config.json")
