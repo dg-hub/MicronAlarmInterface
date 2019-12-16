@@ -1,11 +1,11 @@
 # MicronAlarmInterface
-A Python interface for controlling Mircon Meridian Alarm Systems over HTTP
+A Python interface for controlling Micron Meridian Alarm Systems over HTTP
 
 Copyright (c) 2019 Daniel G - https://github.com/dg-hub
 
 
 
-MicronAlarmInterface is a simple program for controling Mircon Meridian Alarm Systems over HTTP, it is based on reverse engineering the Javascript and HTTP requests performed by the embedded Web Interface.
+MicronAlarmInterface is a simple program for controling Micron Meridian Alarm Systems over HTTP, it is based on reverse engineering the Javascript and HTTP requests performed by the embedded Web Interface.
 
 # Features
 MicronAlarmInterface has limited inital features, more can be added in future if required (please get in touch)
