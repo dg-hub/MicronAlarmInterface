@@ -5,7 +5,7 @@ Copyright (c) 2019 Daniel G - https://github.com/dg-hub
 
 
 
-MicronAlarmInterface is a simple program for controling Mircon Meridian Alarm Systems over HTTP, it is based on the reverse engineering the Javascript and HTTP requests performed by the embedded Web Interface.
+MicronAlarmInterface is a simple program for controling Mircon Meridian Alarm Systems over HTTP, it is based on reverse engineering the Javascript and HTTP requests performed by the embedded Web Interface.
 
 # Features
 MicronAlarmInterface has limited inital features, more can be added in future if required (please get in touch)
@@ -43,6 +43,6 @@ area_status = mci.set_area_name(area_names[1])
 print("Area Status {}".format(area_status))
 ```
 
-Note that the entire process is usually wrapped inside a transaction so that other clients will have access to the old data until the transaction is completed. 
+Note that the alarm status is updated only after a `set` request or when `update_xml_status()` is called
 
 
