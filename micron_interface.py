@@ -1,5 +1,5 @@
 """
-A Python interface for controlling Mircon Meridian Alarm Systems over HTTP
+A Python interface for controlling Micron Meridian Alarm Systems over HTTP
 """
 
 __author__ = "Daniel G"
