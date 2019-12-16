@@ -14,6 +14,12 @@ MicronAlarmInterface has limited inital features, more can be added in future if
 * Control.  Toggle Area arming status (Arm/Disarm)
 * Status.  Get boolean status of Zones(Active) and Areas(Armed)
 
+# Feature requests
+Please use Git Hub issues to request new features:
+
+  https://github.com/dg-hub/MicronAlarmInterface/issues
+
+
 # Release Notes
 
 Version 0.1.3 (December 16, 2019) Add initial code to control areas, get zone/area status and retreive metadata (Zone/Area names)
